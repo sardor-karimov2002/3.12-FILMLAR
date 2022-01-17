@@ -32,6 +32,8 @@ for(let i=0; i<movies.length; i++){
     dercelement.textContent="Derectors: " + movies[i].director
     actelement.textContent="Actors: " + movies[i].actors
     pElement.textContent="Discirption: " + movies[i].description
+    imgElement.style.width="100%"
+    imgElement.style.height="370px"
     console.log(movies[i].title)
     for(let j=0; j<movies[i].genres.length;j++){
         var h5Element=document.createElement('h5')
